@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?> 
+<Context displayName="MidTerm" docBase="MidTerm" path="/MidTerm" reloadable="true">
+  <!--                  SQLServer                      -->
+  <Resource name="jdbc/CompanyDB" type="javax.sql.DataSource"
+      username="sa" password="passw0rd"
+      driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver"
+      url="jdbc:sqlserver://127.0.0.1:1433;DatabaseName=DB00"    
+      maxTotal="8"
+      maxIdle="4"
+      maxWaitMillis="5000"
+  />  
+</Context>
